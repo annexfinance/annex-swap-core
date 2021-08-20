@@ -1,11 +1,11 @@
 {
-  "name": "@pancakeswap-libs/pancake-swap-core",
-  "description": "🎛 Core contracts for the pancake protocol",
+  "name": "@annexfinance/annex-swap-core",
+  "description": "🎛 Core contracts for the annex swap protocol",
   "version": "0.1.0",
-  "homepage": "https://pancakeswap.finance",
+  "homepage": "https://annex.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-swap-core.git"
+    "url": "https://github.com/annexfinance/annex-swap-core.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"

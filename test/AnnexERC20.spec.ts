@@ -30,7 +30,7 @@ describe('AnnexERC20', () => {
   it('name, symbol, decimals, totalSupply, balanceOf, DOMAIN_SEPARATOR, PERMIT_TYPEHASH', async () => {
     const name = await token.name()
     expect(name).to.eq('Annex LPs')
-    expect(await token.symbol()).to.eq('Cake-LP')
+    expect(await token.symbol()).to.eq('ANN-LP')
     expect(await token.decimals()).to.eq(18)
     expect(await token.totalSupply()).to.eq(TOTAL_SUPPLY)
     expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY)
