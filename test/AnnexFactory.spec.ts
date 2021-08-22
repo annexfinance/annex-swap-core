@@ -68,7 +68,7 @@ describe('AnnexFactory', () => {
   it('createPair:gas', async () => {
     const tx = await factory.createPair(...TEST_ADDRESSES)
     const receipt = await tx.wait()
-    expect(receipt.gasUsed).to.eq(2505499)
+    expect(receipt.gasUsed).to.eq(2509720)
     // expect(receipt.gasUsed).to.eq(2509120)
   })
 
